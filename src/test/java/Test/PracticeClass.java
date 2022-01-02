@@ -13,6 +13,7 @@ public class PracticeClass {
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
 
+
         driver.get("https://accounts.google.com/");
 
         WebElement bb;
