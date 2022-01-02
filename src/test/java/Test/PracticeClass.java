@@ -11,6 +11,7 @@ public class PracticeClass {
 
         WebDriver driver = new ChromeDriver();
         WebDriverManager.chromedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
 
         driver.get("https://accounts.google.com/");
 
